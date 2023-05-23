@@ -1,0 +1,27 @@
+body {
+  background-image: url('/img/bg.jpg');
+  background-size: cover;
+}
+
+.card.common-item {
+    background: linear-gradient(to bottom, #f0f0f0, #e1e1e1); /* gradien untuk rarity common */
+}
+
+.card.rare-item {
+    background: linear-gradient(to bottom, #aaf0d1, #87ceba); /* gradien untuk rarity rare */
+}
+
+.card.epic-item {
+    background: linear-gradient(to bottom, #8A2BE2, #9400d3); /* gradien untuk rarity epic */
+}
+
+.card.legendary-item {
+    background: linear-gradient(to bottom, #f0aaab, #e59596); /* gradien untuk rarity legendary */
+}
+
+.highlight {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+
